@@ -3,11 +3,10 @@ package br.com.senai.teste;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
-@SpringBootApplication
+@SpringBootApplication 
 public class TesteApplication {
-
-	public static void main(String[] args) {
-		SpringApplication.run(TesteApplication.class, args);
-	}
-
+    
+    public static void main(String[] args) {
+        SpringApplication.run(TesteApplication.class, args);
+    }
 }
